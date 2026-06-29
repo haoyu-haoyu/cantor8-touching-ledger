@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+# Local scratch/source downloads from workshop research
+work_*
+google-doc-snapshot.md
+google-doc-visible.png
+.playwright-mcp/
+
+# Locally generated signing material for external-party topology.
+# Do not commit this key.
+external_party_key.json
+

@@ -1,0 +1,26 @@
+
+== Token ==
+authenticatedUser=validator-backend@clients
+
+== External Party Topology ==
+usingExistingKey=external_party_key.json
+externalPartyId=cantor8-haoyu-20260629001700-external::12207cb9cc30c133207cb1caf23b909b253a4330ada7d9d6f675b762163e8372ae4b
+topologyTransactions=3
+
+== Create Internal Party ==
+partyId=cantor8-haoyu-20260629001700::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f
+
+== Provider Context ==
+providerParty=cantor8-digik-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f
+dsoParty=DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a
+
+== Setup TransferPreapproval Proposal ==
+preapprovalProposalUpdateId=12208ea7425f465e18bd91f78d2d82e83946d49c6ae039abbb29f36995d6a4b23bdb
+
+== Check Balance ==
+ledgerEnd=2185680
+holdingContracts=0
+transferPreapprovalContracts=1
+transferPreapprovalProposalContracts=1
+estimatedBalance=0
+externalTopologyPartyForProof=cantor8-haoyu-20260629001700-external::12207cb9cc30c133207cb1caf23b909b253a4330ada7d9d6f675b762163e8372ae4b
